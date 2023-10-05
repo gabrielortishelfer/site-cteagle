@@ -1,0 +1,46 @@
+@import url("style.css");
+
+
+header > div > span { /*para deixar o CT EAGLE que está do lado do menu, centralizado com a img do CT EAGLE*/
+    padding-left: 2.3rem;
+}
+body > article { /*container onde fica a img do CT EAGLE(card) -alinhando ela no centro colocando as margens*/
+    background-color: #1a1a1a;
+    margin-left: 2.1rem;
+    margin-top: 1.2rem;
+}
+
+
+.card{
+    border-radius: 0.6rem;
+  box-shadow: 0 0 5px rgba(221, 245, 10, 0.60);
+ background-image:url(../imagens/logo\ da\ EAGLE.jpg);
+ height: 13.5rem; /*a altura da imagem -deixando ela maior*/
+ width: 18.3rem; /*largura da imagem- deixando ela mais larga..*/
+ background-size: cover;background-size: cover; /*imagem cobrirá sempre o contêiner inteiro*/
+ background-position: center; /*renderizar a img no centro do card*/
+ margin-top: 2rem;
+}
+
+ol > li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    background-color: #FFD12F;
+    color: black;
+    width: 20.6rem;
+    height: 2.1rem;
+    font-size: 1.5rem;
+    margin: 0.8rem;
+    margin-top: 1.6rem;
+}
+
+*{ /*serve para deixar a ESCRITA dos BOTOES pretos! CTEAGLE, MUAYTHAI, LOCALIZAÇÃO*/
+    color: black; 
+    text-decoration: none; /* para deixar a escrita dos botões sem a linha nas palavras*/
+}
+
+main > section{
+    margin-top: 3rem;
+}

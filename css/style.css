@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;700&display=swap");
+
+body {
+  background-color: #1a1a1a;
+}
+
+h1{
+  margin-left: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Vollkorn SC', serif;
+  color: #FFF;
+}
+
+body > header { /*para todos os headers*/
+  width: 334px;
+  height: 40px;
+  display: flex; /*os itens ficaram destribuídos horizontalmente  no eixo X --->*/
+  padding: 1rem;
+  align-items: center; /*alinhando os itnes no centro do container*/
+  margin-top: 1.5rem;
+}
+
+
+header > div > span{
+  color: #fec600;
+  text-align: center;
+  font-family: Vollkorn SC;
+  font-size: 2.5rem;
+  font-weight: 700;
+  flex-direction: row;
+  padding-left: 1rem; /*espaço entre o menu e os SPAN'S*/
+}
+
+header > div {
+  align-items: center;
+  flex-direction: row ;
+  justify-content: flex-start;
+}
+
+p{ /*all parágrafo */
+  text-align: justify;
+  text-indent: 0.8rem;
+  padding-left: 0.8rem;
+  padding-right: 1.2rem;
+}   
+
+footer{ /*"all "roda-pés */
+  background-color: #FFD12F;
+    padding: 0.1rem;
+    position: fixed;
+    bottom: 2rem;
+    width: 100vw;
+}
+
+footer > p{
+  color: black;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+footer > p > b{ /* para deixar a fonte PRETA QUE ESTÁ DENTRO DO PARÁG. QUE ESTÁ DENTRO DO FOOTER*/
+  color: black;
+}
+

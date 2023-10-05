@@ -1,0 +1,32 @@
+@import url("style.css");
+
+body > article { /*container onde fica a img do CT EAGLE(card)*/
+  background-color: #1a1a1a;
+  margin-left: 4rem;
+  margin-top: 0.5rem;
+}
+
+.card{ /* onde vai ficar o "logo do CT" DENTRO DO container article*/
+  border-radius: 0.6rem;
+  box-shadow: 0 0 5px rgba(221, 245, 10, 0.60);
+ background-image:url(../imagens/logo\ da\ EAGLE.jpg);
+ height: 10rem; /*p/ ajustar a img do CT no centro*/
+ width: 12rem;
+ background-size: cover;background-size: cover; /*imagem cobrirá sempre o contêiner inteiro*/
+ background-position: center; /*renderizar a img no centro do card*/
+}
+
+main > h1{ /*CENTRO DE TREINAMENTO EAGLE*/
+  color: #FFF;
+  font-size: 1.1rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+p{ /* alinhamento dos parágrafos*/
+  text-align: justify;
+    text-indent: 0.8rem;
+    margin-top: 0.9rem;
+    padding-right: 1.2rem;
+    padding-left: 0.8rem
+}

@@ -1,0 +1,70 @@
+@import url("style.css");
+
+
+h1{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+p{
+    text-indent: 0.3rem;
+    font-size: 1.15rem;
+    padding-right: 1.2rem;
+}
+
+h2{
+    font-size: 1.2rem;
+    margin-left: 0.95rem;
+    margin-top: 4rem
+}
+
+article > img{ /* imagem do wpp- */
+    width: 2.2rem;
+    height: 2.3rem;
+    border-radius: 2.5rem; /*deixando a img em circulo */
+}
+
+article > div{ /*o container onde o número de telefone vai ficar*/
+    background-color: white;
+    border-radius: 2rem;
+    width: 15rem;
+    height: 2.5rem;
+    margin-left: 0.7rem;
+}
+
+article > div > h1{ /* ajustando o numero de telefone dentro da div*/
+    color: black; 
+    margin: 0;
+    margin-left: 1.2rem;
+    font-size: 1.8rem;
+}
+ 
+
+article{ /*onde está o logo do wpp e o número de telefone*/
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+}
+
+section{
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+
+main > section > h3{ /*ENDEREÇO*/
+    margin-left: 7.2rem;
+    margin-bottom: 1rem;
+}
+
+
+main > section > span{ /* "av.Lúcio Bitencourt,1921 -centro-sapucaia..."*/
+    font-size: 0.7rem;
+}
+
+main > section > p{ /*ALINHANDO O CEP NO CENTRO DA TELA */
+    font-size: 0.9rem;
+    margin-left: 6.2rem;
+}
